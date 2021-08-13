@@ -1,6 +1,6 @@
 <?php
 
-require("partial/db_connect.php");
+require("db_connect.php");
 ?>
 
 <!DOCTYPE html>
