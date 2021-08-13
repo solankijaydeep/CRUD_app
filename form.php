@@ -1,5 +1,5 @@
 <?php
-    include("partial/db_connect.php");
+    include("db_connect.php");
     if($_SERVER['REQUEST_METHOD'] == 'POST')
     {
         $name = $_POST['name'];
