@@ -1,6 +1,6 @@
 <?php
 
-include("partial/db_connect.php");
+include("db_connect.php");
 
 $id = $_GET['id'];
 $query = mysqli_query($conn,"SELECT * FROM emp WHERE id = '$id'");
@@ -53,8 +53,8 @@ if(isset($_POST['update']))
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Add Student</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+    
 </head>
 <body>
     <section style="padding-top:60px">
@@ -104,10 +104,7 @@ if(isset($_POST['update']))
             </div>
         </div>
     </section>
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.bundle.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
